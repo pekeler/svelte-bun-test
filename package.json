@@ -1,0 +1,23 @@
+{
+  "name": "svelte-bun-test",
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@threlte/core": "^8.0.1",
+    "@types/bun": "latest",
+    "bun-plugin-svelte": "^0.0.5",
+    "svelte": "^5.23.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@svelteuidev/composables": "^0.15.7",
+    "@svelteuidev/core": "^0.15.7",
+    "date-picker-svelte": "^2.15.1",
+    "lodash": "^4.17.21",
+    "svelte-copyright": "^2.1.0",
+    "three": "^0.174.0"
+  }
+}
